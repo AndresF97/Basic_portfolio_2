@@ -47,7 +47,7 @@ This a website that has information about me, how to contact me and projects I'v
 </body>
 </html>
 ```
-- This code is imporant because It helped understand they way bootstrap works. It may have pre-written code but you can still modifie this code by either deleting some syntax from the class attribute.
+- This code is imporant because It helped understand they way bootstrap works. It may have pre-written code but you can still modify this code by either deleting some syntax from the class attribute.
 ## Author Links
 [LinkedIn](linkedin.com/in/andres-felipe-jimenez-ferreira-b67a35192)
 [GitHub](https://github.com/AndresF97)
