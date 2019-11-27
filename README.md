@@ -1,7 +1,7 @@
  My Portfolio
 
 ## Site Picture
-![My Website](../assets/Images/About.png)
+![My Website](https://media.licdn.com/dms/image/C4E22AQEUfUi1EsW7HQ/feedshare-shrink_800/0?e=1577923200&v=beta&t=IMAfCrCDGkSK5p2NqLeB7T3HaNF5m_dUmhXfcXSSrdE)
 
 
 ## Technologies Used
@@ -16,33 +16,38 @@ This a website that has information about me, how to contact me and projects I'v
 
 ## Code Snippet
 ```html
-<body>
-        <h1 class="name">Andres J.</h1>
-        <div class=nav_bar>
-        <h4 class="about"><a href="index.html">About</a></h4>
-        <h4 class='portfolio'><a href="portfolio.html">Portfolio</a></h4>
-        <h4 class="contact"><a href="contact.html">Contact</a></h4>
-        </div>
-        <div class="box1">
-            <div class="box2">
-            <h2 class="CT">Contact</h2>
-            <hr>
-            <h4>Name</h4>
-        <input type="text" name="fname" value="Your Name" style="width:840px "><br>
-           <h4>Email</h4> 
-           <input type="text" name="email" value="Your Email" style="width:840px "><br>
-           <h4>Messages</h4>
-           <textarea></textarea>
-           <br>
-           <button type="submit">Submit</button><br>
-            </div>
-
-```html
 <html>
+<body>
+    <nav class="navbar navbar-expand-lm navbar-light" 
+    style="padding:0px 0px 0px 0px">
+      <span class="navbar-brand mb-0 h1" style="background-color: #4aaaa5; color:white;padding:20px 20px 20px 20px;font-size:30px">
+        Andres J.
+      </span>
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+        <a class="nav-link" href="Index.html" style="color: grey">
+            About 
+        </a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="portfolio.html" style="color: grey">
+        Portfolio
+        </a>
+            </li>
+        <li class="nav-item">
+        <a class="nav-link" href="contact.html" style="color: grey">
+        Contact
+        </a>
+           </li>
+                </ul>  
+                    </nav>
+        
 
+
+</body>
 </html>
 ```
-- 
+- This code is imporant because It helped understand they way bootstrap works. It may have pre-written code but you can still modifie this code by either deleting some syntax from the class attribute.
 ## Author Links
 [LinkedIn](linkedin.com/in/andres-felipe-jimenez-ferreira-b67a35192)
 [GitHub](https://github.com/AndresF97)
