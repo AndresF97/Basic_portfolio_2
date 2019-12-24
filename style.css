@@ -1,0 +1,61 @@
+html{
+    height: 100%
+    !important;
+}
+body{
+    min-height: 100%
+    !important;
+    background-image: url("https://media3.giphy.com/media/TxVVB6PfWMjE4/giphy.gif");
+    background-size: cover;
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+.fa-github-square{
+    font-size: 120px
+    !important;
+}
+.fa-linkedin{
+    font-size: 120px
+    !important;
+
+}
+.fa-file-pdf{
+    font-size: 120px
+    !important;
+    
+}
+@media (max-width:1199px){
+    .jumbotron{
+        height:800px
+        !important;
+    };
+
+}
+@media (max-width:767px){
+    .jumbotron{
+        height:900px
+        !important;
+    };
+
+}
+@media (max-width:500px){
+    .jumbotron{
+        height:1200px
+        !important;
+        width:390px
+        !important;
+    };
+
+}
+@media (max-width:360px){
+    .jumbotron{
+        height:1200px
+        !important;
+        width:390px
+        !important;
+        margin-left:0px
+        !important;
+    };
+
+}
