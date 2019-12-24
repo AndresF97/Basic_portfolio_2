@@ -39,6 +39,9 @@ body{
     };
 
 }
+
+
+}
 @media (max-width:500px){
     .jumbotron{
         height:1200px
@@ -48,6 +51,13 @@ body{
     };
 
 }
+@media (max-width:414px){
+    .jumbotron{
+        height:1200px
+        !important;
+        width: 420px
+        !important;
+    };
 @media (max-width:360px){
     .jumbotron{
         height:1200px
@@ -57,5 +67,9 @@ body{
         margin-left:0px
         !important;
     };
+    .container{
+        padding:0%
+        !important;
+    }
 
 }
