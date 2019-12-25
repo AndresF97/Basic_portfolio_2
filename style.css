@@ -11,6 +11,14 @@ body{
     padding:0;
     margin:0;
 }
+.navbar-brand{
+    font-size: 40px
+    !important;
+}
+.jumbotron{
+    height: 800px
+    !important;
+}
 .fa-github-square{
     font-size: 120px
     !important;
@@ -21,46 +29,52 @@ body{
 
 }
 .fa-file-pdf{
-    font-size: 120px
+    font-size: 115px
     !important;
     
 }
 @media (max-width:1199px){
-    .jumbotron{
-        height:800px
-        !important;
-    };
-
-}
-@media (max-width:767px){
     .jumbotron{
         height:900px
         !important;
     };
 
 }
-
+@media (max-width:767px){
+    .jumbotron{
+        height:1000px
+        !important;
+    };
 
 }
+
 @media (max-width:500px){
     .jumbotron{
-        height:1200px
+        height:1300px
         !important;
         width:390px
         !important;
     };
 
 }
-@media (max-width:414px){
+@media (max-width:535px){
     .jumbotron{
-        height:1200px
-        !important;
-        width: 420px
+        height:1000px
         !important;
     };
+
+}
+@media (max-width:414px){
+    .jumbotron{
+        height:1000px
+        !important;
+        width: 500px
+        !important;
+    };
+}
 @media (max-width:360px){
     .jumbotron{
-        height:1200px
+        height:1000px
         !important;
         width:390px
         !important;
@@ -70,6 +84,15 @@ body{
     .container{
         padding:0%
         !important;
-    }
-
+    };
+}
+@media (max-width:320px){
+    .jumbotron{
+        height:1350px
+        !important;
+        width:390px
+        !important;
+        margin-left:0px
+        !important;
+    };
 }
