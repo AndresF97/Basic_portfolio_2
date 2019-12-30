@@ -33,19 +33,35 @@ body{
     !important;
     
 }
+.back{
+    background-color: #f2f2f2;
+    opacity: 0.5;
+    border-radius: 25px;
+
+}
+.color{
+    color: #33bbff;
+    font-weight: bolder;
+}
 @media (max-width:1199px){
     .jumbotron{
         height:900px
         !important;
     };
-
+    .color{
+        font-size: 12px
+        !important;
+    }
 }
 @media (max-width:767px){
     .jumbotron{
         height:1000px
         !important;
     };
-
+    .carousel-caption{
+        font-family: 'Times New Roman', Times, serif
+        !important;
+    };
 }
 
 @media (max-width:500px){
@@ -74,7 +90,7 @@ body{
 }
 @media (max-width:360px){
     .jumbotron{
-        height:1000px
+        height:1400px
         !important;
         width:390px
         !important;
@@ -85,6 +101,14 @@ body{
         padding:0%
         !important;
     };
+    .head{
+        font-size:8px
+        !important;
+    };
+    .paragraph{
+        font-size:8px
+        !important;
+    }
 }
 @media (max-width:320px){
     .jumbotron{
@@ -94,5 +118,6 @@ body{
         !important;
         margin-left:0px
         !important;
+        
     };
 }
