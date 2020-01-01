@@ -33,6 +33,10 @@ body{
     !important;
     
 }
+.fa-folder{
+    font-size: 135px
+    !important;
+}
 .back{
     background-color: #f2f2f2;
     opacity: 0.5;
