@@ -33,13 +33,34 @@ body{
     !important;
     
 }
-.fa-folder{
-    font-size: 135px
-    !important;
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: #b3e6ff;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid#b3e6ff;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  font-weight: bolder;
+  color:lightgrey;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  font-weight: bolder;
+  color: lightgrey;
 }
 .back{
     background-color: #f2f2f2;
-    opacity: 0.5;
+    opacity: 0.8;
     border-radius: 25px;
 
 }
@@ -57,13 +78,26 @@ body{
         !important;
     }
 }
-@media (max-width:767px){
+@media (max-width:1024px){
     .jumbotron{
-        height:1000px
+        height:800px
+        !important;
+    };
+    
+}
+@media (max-width:988px){
+    .carousel-caption{
+        height: 80px
+        !important;
+    
+}
+@media (max-width:768px){
+    .jumbotron{
+        height:700px
         !important;
     };
     .carousel-caption{
-        font-family: 'Times New Roman', Times, serif
+        height: 80px
         !important;
     };
 }
@@ -86,7 +120,7 @@ body{
 }
 @media (max-width:414px){
     .jumbotron{
-        height:1000px
+        height:800px
         !important;
         width: 500px
         !important;
@@ -94,7 +128,7 @@ body{
 }
 @media (max-width:360px){
     .jumbotron{
-        height:1400px
+        height:1100px
         !important;
         width:390px
         !important;
@@ -116,7 +150,7 @@ body{
 }
 @media (max-width:320px){
     .jumbotron{
-        height:1350px
+        height:1050px
         !important;
         width:390px
         !important;
