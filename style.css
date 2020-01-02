@@ -33,6 +33,10 @@ body{
     !important;
     
 }
+#folder{
+    font-size: 20px
+    !important;
+}
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   height: 100px;
