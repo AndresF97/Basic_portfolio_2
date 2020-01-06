@@ -7,9 +7,3 @@ function animate(){
     $("#folder").html("&#xf07b");
 }
 animate()
-$("svg").on("click",function(){
-    $("#folder").empty() 
-    $("#folder").html("&#xf07c")
-
-    console.log("hi")
-})
